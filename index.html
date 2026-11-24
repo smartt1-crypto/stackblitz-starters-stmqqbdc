@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXUS CLIP AI - Video Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo">NEXUS <span>CLIP AI</span></div>
+      <button class="profile">My Studio</button>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="tag">✦ AI VIDEO INTELLIGENCE</div>
+
+        <h1>
+          Turn Long Videos Into
+          <span>Viral Clips.</span>
+        </h1>
+
+        <p>
+          Let artificial intelligence discover your best moments and transform
+          them into engaging short videos.
+        </p>
+      </section>
+
+      <section class="upload-section">
+        <div class="upload-icon">🎬</div>
+
+        <h2>Upload Your Video</h2>
+
+        <p>Select a long video to get started.</p>
+
+        <label for="videoInput" class="upload-button"> + Choose Video </label>
+
+        <input type="file" id="videoInput" accept="video/*" hidden />
+
+        <div id="fileInfo"></div>
+
+        <video id="videoPreview" controls hidden></video>
+      </section>
+
+      <section class="features">
+        <h2>Powerful AI Features</h2>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div>🧠</div>
+            <h3>AI Highlight Detection</h3>
+            <p>Find the most interesting moments automatically.</p>
+          </div>
+
+          <div class="feature-card">
+            <div>✂️</div>
+            <h3>Smart Video Clipping</h3>
+            <p>Turn long videos into short-form content.</p>
+          </div>
+
+          <div class="feature-card">
+            <div>💬</div>
+            <h3>Automatic Captions</h3>
+            <p>Generate subtitles for your videos.</p>
+          </div>
+
+          <div class="feature-card">
+            <div>📱</div>
+            <h3>Vertical Formatting</h3>
+            <p>Prepare videos for TikTok and YouTube Shorts.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="clips-section">
+        <h2>Your Generated Clips</h2>
+
+        <div class="empty-clips">
+          <div>🎞️</div>
+          <h3>No clips generated yet</h3>
+          <p>Upload a video to begin your AI clipping journey.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2026 NEXUS CLIP AI. All rights reserved.</footer>
+  </body>
+</html>
